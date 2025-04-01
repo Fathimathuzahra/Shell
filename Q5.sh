@@ -17,5 +17,7 @@ then
 elif [ $choice == 4 ]
 then
         echo " Division = ` expr $a / $b `"
+else
+	echo "Invalid choice"
 
 fi
