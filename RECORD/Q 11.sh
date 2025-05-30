@@ -1,4 +1,3 @@
-Q)Write a shell script program to generate a multiplication table pattern.  
 
 
 #!/bin/bash
@@ -28,10 +27,3 @@ Multiplication table of 5 :
  10 * 5 = 50
 
 
-Algorithm:
-Step 1: Ask the user to enter a value and store it in variable m.
-Step 2: Initialize a variable i to 1.
-Step 3: Print the message "Multiplication table of $m".
-Step 4: Use a while loop to iterate from 1 to 10.
-Step 5: In each iteration, print the multiplication result of i and m.\
-Step 6: Increment i by 1 after each iteration.
