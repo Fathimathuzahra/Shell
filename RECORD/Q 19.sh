@@ -1,4 +1,3 @@
-Q)Shell script to display the content of a directory file in windows style
 
 
 Code:
@@ -15,17 +14,6 @@ f_size=`cat $f | wc -c`
 echo -e "$f \t\t $f_size \t $fdatetime"
 fi
 done
-
-
-Algorithm:
-Step 1: Show current directory path.
-Step 2: For each file/dir in current folder.
-Step 3: Get its last modified date & time.
-Step 4: If it's a directory, print name, <DIR>, and time.
-Step 5: If it's a file, get size in bytes and print name, size, and time.
-Step 6: Repeat till all items are done.
-Step 7: End.
-
 
 Input:
 sh window.sh file1.txt
