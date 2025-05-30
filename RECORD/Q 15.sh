@@ -1,5 +1,3 @@
-Q)Shell script to compare two files. If the files are identical delete one
-
 
 Code:
 
@@ -22,13 +20,6 @@ else
 fi
 
 
-Algorithm:
-Step 1: If args ≠ 2, show syntax and exit.
-Step 2: If both are regular files, compare them.
-Step 3: If same, show message, delete first file.
-Step 4: If not same, show message.
-Step 5: If not regular, show error.
-Step 6: End.
 
 Input:
 sh compare.sh file1.txt file2.txt
