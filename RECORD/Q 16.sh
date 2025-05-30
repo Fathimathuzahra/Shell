@@ -1,6 +1,3 @@
-Q)Shell script to count the number of words and lines in a file
-
-
 Code:
 if [ $# -gt 1 ]
 then
@@ -26,19 +23,6 @@ then
         exec < $term
 fi
 exit 0
-
-
-Algorithm:
-Step 1: If more than one argument, show syntax and exit.
-Step 2: Set line and word counters to 0.
-Step 3: If filename given, read input from it.
-Step 4: For each line:
- – Increase line count.
- – Count words and add to total.
-Step 5: Print line and word counts.
-Step 6: Restore terminal input if changed.
-Step 7: Exit program.
-
 
 Input:
 $ sh wordcount.sh file1.txt
